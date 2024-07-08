@@ -182,7 +182,7 @@ export default function App() {
   const [purchased, setPurchased] = useState(false); //set to true if the user has active subscription
   const [products, setProducts] = useState({}); //used to store list of products
 
-  console.log('products.....', products, purchased);
+  // console.log('products.....', products, purchased);
   const validate = async receipt => {
     setPurchased(true);
     Alert.alert('SUCCESS', 'YOUR purchase SUCCESS');
